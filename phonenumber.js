@@ -1,4 +1,4 @@
-var digit2english_dict = 'zero,one,two,three,four,five,six,seven,eight,nine'.split(',');
+var digit2english_dict = 'three,six,nine,zero,four,seven,five,eight,two,one'.split(',');
 
 var phonenumberform,
     digit_selects = [];
