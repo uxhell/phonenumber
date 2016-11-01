@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>satan's phone number ux</title>
+  <script src="phonenumber.js"></script>
+  <style>
+  input[name='result'] {
+    display: block;
+    margin-top: 1em;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  </style>
+</head>
+<body>
+  <h2>Please enter your phone number:</h2>
+  <form id="phonenumberform" action="https://httpbin.org/post" method="post">
+    <select name="digit1"></select>
+    <select name="digit2"></select>
+    <select name="digit3"></select>
+    <select name="digit4"></select>
+    <select name="digit5"></select>
+    <select name="digit6"></select>
+    <select name="digit7"></select>
+    <select name="digit8"></select>
+    <select name="digit9"></select>
+    <select name="digit10"></select>
+    <input type="text" name="result" readonly>
+    <input type="submit" value="Submit!">
+  </form>
+
+  <footer>
+    Fork me on <a href="https://github.com/uxhell/phonenumber">GitHub</a>
+  </footer>
+</body>
+</html>
