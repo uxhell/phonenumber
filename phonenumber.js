@@ -1,3 +1,5 @@
+//Selecting individual Numbers
+
 var digit2english_dict = 'zero,one,two,three,four,five,six,seven,eight,nine'.split(',');
 
 var phonenumberform,
@@ -48,3 +50,27 @@ function pageLoad(ev) {
 }
 
 window.addEventListener('load', pageLoad, false);
+
+
+
+//Right to left <vigzmv>
+
+function rtl(element){   
+    if(element.setSelectionRange){
+        element.setSelectionRange(0,0);
+    }
+}
+
+function satans666(ev){
+  inputval = document.getElementById("rtlinput");
+  len = inputval.value.length;
+  len = (Math.pow(10,len)-1)/9*6;
+  inputval.value = len;
+  ev.preventDefault();
+}
+
+function pageLoad2(ev) {
+  document.getElementById("rtlsubmit").addEventListener("click", satans666, false);
+}
+
+window.addEventListener('load', pageLoad2, false);
