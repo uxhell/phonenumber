@@ -6,10 +6,16 @@
   <script src="phonenumber.js"></script>
 
   <style>
-  *{
-    font-family: "Times New Roman";
-    font-size:18px;
-  }
+    *{
+      font-family: "Times New Roman";
+      font-size:18px;
+    }
+
+    h2 {
+      border-style: dashed;
+      border-color: brown;
+    }
+
     input[name='result'] {
       display: block;
       margin-top: 1em;
@@ -18,12 +24,16 @@
     }
 
     .right-to-left input {
-    direction: rtl;
-    unicode-bidi: bidi-override;
-    text-align: right;
-    font-size:20px;
+      direction: rtl;
+      unicode-bidi: bidi-override;
+      text-align: right;
+      font-size:20px;
     }
 
+    ::first-letter {
+      color: red;
+      font-weight: 900;
+    }
   </style>
 </head>
 <body>
